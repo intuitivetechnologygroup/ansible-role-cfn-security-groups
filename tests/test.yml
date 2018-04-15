@@ -1,0 +1,4 @@
+- include: internal.yml
+- include: internal.yml -e sg_stack_state=absent
+- include: external.yml
+- include: external.yml -e sg_stack_state=absent
